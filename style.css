@@ -8,7 +8,7 @@
     display: block;
     padding: 12px;
     text-decoration: none;
-    align-content: center;
+    align: center;
   }
   
   .vertical-menu a:hover {
@@ -19,3 +19,5 @@
     background-color: #04AA6D;
     color: white;
   }
+
+  
