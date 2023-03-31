@@ -1,3 +1,10 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+  background-color: #04AA6D;
+}
+
 .vertical-menu, h1{ /*SETE A TAG H1 PARA QUE FIQUE NO CENTRO TBM*/
     width: 200px;
     margin-left: auto;  /* ADICIONE A MARGIN PARA FICAR NO CENTRO*/
