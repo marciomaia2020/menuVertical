@@ -27,6 +27,12 @@ body{
     background-color: #04AA6D;
     color: white;
   }
+  .tabela1{
+  scroll-padding-inline-start: 50%;
+  }
+  .tabela2{
+  padding-right: auto;
+  }
  
 
   
