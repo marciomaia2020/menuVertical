@@ -15,8 +15,8 @@ Gravando o comando para impressão, usando o window.print()
 Para acessar um elemento HTML, o JavaScript pode usar o método. document.getElementById(id)
 O atributo define o elemento HTML. A propriedade define o conteúdo HTML:idinnerHTML */
 /*ADICIONE UM DEMO NO HTML e habilite o código abaixo
-document.getElementById("demo").innerHTML = 5 + 6; 
-*/
+document.getElementById("demo").innerHTML = 5 + 6; */
+
 
 
 
@@ -60,3 +60,68 @@ A única exceção é que você pode chamar o método em o navegador para imprim
 /*Adicione o código para impressão no HTML
 <button onclick="window.print()">Imprima esta página</button>
 */
+
+
+/*
+JavaScript Variables
+
+4 maneiras de declarar uma variável JavaScript:
+Usandovar
+Usandolet
+Usandoconst
+Usando nada
+
+O que são Variáveis?
+As variáveis ​​são contêineres para armazenar dados (armazenar valores de dados).
+
+Neste exemplo, x, ye z, são variáveis, declaradas com a varpalavra-chave:
+
+Exemplo
+var x = 5;
+var y = 6;
+var z = x + y;
+
+Vamos usar a conlole para mostar os valores...
+ou pode ser usado tbm o 
+document.getElementById("demo").innerHTML = "The value of z is: " + z; (não esqueçendo de colocar o ) <p id="demo"></p> no html
+
+Neste exemplo, x, ye z, são variáveis, declaradas com a letpalavra-chave:
+let x = 5;
+let y = 6;
+let z = x + y;
+
+Neste exemplo, x, y, e z, são variáveis ​​não declaradas:
+x = 5;
+y = 6;
+z = x + y;
+
+
+De todos os exemplos acima, você pode adivinhar:
+
+x armazena o valor 5
+y armazena o valor 6
+z armazena o valor 11
+
+Quando usar JavaScript var?
+Sempre declare variáveis ​​JavaScript com var, letou const.
+A varpalavra-chave é usada em todo o código JavaScript de 1995 a 2015.
+As palavras-chave lete constforam adicionadas ao JavaScript em 2015.
+Se você deseja que seu código seja executado em navegadores mais antigos, você deve usar var.
+
+
+Quando usar JavaScript const?
+Se você quer uma regra geral: sempre declare variáveis ​​com const.
+Se você acha que o valor da variável pode mudar, use let.
+Neste exemplo, preco1, preco2, e total, são variáveis:
+
+Exemplo
+const preco1 = 5;
+const preco2 = 6;
+let total = preco1 + preco2;
+
+As duas variáveis preco1 ​​e preco2 são declaradas com a const (((palavra-chave)).
+Estes são valores constantes e não podem ser alterados.
+A variável totalé declarada com a letpalavra-chave.
+Este é um valor que pode ser alterado.
+
+..Assim como álgebra continua... (https://www.w3schools.com/js/js_variables.asp)
