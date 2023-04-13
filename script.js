@@ -1,3 +1,23 @@
+//JavaScript é a linguagem de programação mais popular do mundo.
+//JavaScript é a linguagem de programação da Web.
+//JavaScript é fácil de aprender.
+//Este tutorial ensinará JavaScript do básico ao avançado.
+
+//Exemplo adicione no HTML o código abaixo
+
+/*<button type="button"onclick="document.getElementById('demo').innerHTML = Date()">
+Clique em mim para ver eu funcionando</button>*/
+
+
+/*
+Por que estudar JavaScript?
+JavaScript é uma das 3 linguagens que todos os desenvolvedores web devem aprender:
+   1. HTML para definir o conteúdo das páginas da web
+   2. CSS para especificar o layout das páginas da web
+   3. JavaScript para programar o comportamento das páginas da web
+*/
+
+
 /*
 O JavaScript pode "exibir" dados de diferentes maneiras:
 
@@ -7,7 +27,6 @@ Gravando em uma caixa de alerta, usando o .window.alert()
 Gravando no console do navegador, usando o .console.log()
 Gravando o comando para impressão, usando o window.print()
 */
-
 
 
 
@@ -121,7 +140,12 @@ let total = preco1 + preco2;
 
 As duas variáveis preco1 ​​e preco2 são declaradas com a const (((palavra-chave)).
 Estes são valores constantes e não podem ser alterados.
-A variável totalé declarada com a letpalavra-chave.
+A variável totalé declarada com a let palavra-chave.
 Este é um valor que pode ser alterado.
 
 ..Assim como álgebra continua... (https://www.w3schools.com/js/js_variables.asp)
+
+
+//Fonte: (https://www.w3schools.com/js/default.asp)
+
+DESAFIOS... 
