@@ -6,7 +6,9 @@
 //Exemplo adicione no HTML o código abaixo
 
 /*<button type="button"onclick="document.getElementById('demo').innerHTML = Date()">
-Clique em mim para ver eu funcionando</button>*/
+Clique em mim para ver eu funcionando</button>
+
+*/
 
 
 /*
@@ -33,8 +35,8 @@ Gravando o comando para impressão, usando o window.print()
 /*
 Para acessar um elemento HTML, o JavaScript pode usar o método. document.getElementById(id)
 O atributo define o elemento HTML. A propriedade define o conteúdo HTML:idinnerHTML */
-/*ADICIONE UM DEMO NO HTML e habilite o código abaixo
-document.getElementById("demo").innerHTML = 5 + 6; */
+/*ADICIONE UM DEMO NO HTML e habilite o código abaixo*/
+document.getElementById("demo").innerHTML = 5 + 6; 
 
 
 
